@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-osec
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0055-tenant/tkwch-fix-0075-0055-app/devfile-sample-osec@sha256:725f4190b5cc1befadd657c93b9ed5252f5904fb723575f951ce1fa03cd92821
         name: my-nodejs
         ports:
         - containerPort: 3001
